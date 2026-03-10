@@ -37,5 +37,8 @@ int main() {
 
     // Memanggil prosedur input
     inputData(berat, tinggi);
+
+    // Memanggil fungsi hitung BMI
+    bmi= hitungBMI(berat, tinggi);
     
 }
